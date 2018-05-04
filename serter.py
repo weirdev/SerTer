@@ -14,8 +14,7 @@ class SerialConnection:
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
             bytesize=serial.EIGHTBITS,
-            timeout=5,
-            writeTimeout=5
+            timeout=5
         )
         if self.ser.isOpen():
             try:
